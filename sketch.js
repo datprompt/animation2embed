@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(380, 380);
+  createCanvas(375, 375);
   background(255)
   strokeWeight(2)
 }
@@ -37,5 +37,5 @@ function genRing(numberOfsegs, radius, binary = 0, counter = 0) {
 
 function draw() {
   background(255);
-  genRing(30, 200)
+  genRing(30, width/2)
 }
